@@ -1,5 +1,4 @@
 from pyrogram import Client, __version__
-from aiohttp import web
 from web import web_app
 from info import LOG_CHANNEL, API_ID, API_HASH, BOT_TOKEN, PORT, BIN_CHANNEL
 from utils import temp
