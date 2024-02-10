@@ -4,16 +4,6 @@ from pyrogram import types
 import time, os, platform
 from pyrogram.errors import AccessTokenExpired, AccessTokenInvalid
 
-    async def start(self):
-        temp.START_TIME = time.time()
-        b_users, b_chats = await db.get_banned()
-        temp.BANNED_USERS = b_users
-        temp.BANNED_CHATS = b_chats
-        await super().start()
-        if os.path.exists('restart.txt'):
-            with open("restart.txt") as file:
-                chat_id, msg_id = map(int, file)
-            try:
                 await self.edit_message_text(chat_id=chat_id, message_id=msg_id, text='Restarted Successfully!')
             except:
                 pass
