@@ -4,17 +4,6 @@ from pyrogram import types
 import time, os, platform
 from pyrogram.errors import AccessTokenExpired, AccessTokenInvalid
 
-
-class Bot(Client):
-    def __init__(self):
-        super().__init__(
-            name='Auto_Filter_Bot',
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
-            plugins={"root": "plugins"}
-        )
-
     async def start(self):
         temp.START_TIME = time.time()
         b_users, b_chats = await db.get_banned()
