@@ -1,4 +1,4 @@
-from pyrogram import Client, __version_
+
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
