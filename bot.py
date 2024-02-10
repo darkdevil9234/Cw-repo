@@ -1,6 +1,6 @@
 from pyrogram import Client, __version__
 from web import web_app
-from info import LOG_CHANNEL, API_ID, API_HASH, BOT_TOKEN, PORT, BIN_CHANNEL
+from info import BOT_TOKEN API_ID, API_HASH
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
