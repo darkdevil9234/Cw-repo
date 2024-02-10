@@ -1,5 +1,4 @@
 
-from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 import time, os, platform
