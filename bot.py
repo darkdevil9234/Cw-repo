@@ -1,5 +1,4 @@
 from pyrogram import Client, __version_
-from info import BOT_TOKEN API_ID, API_HASH
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
