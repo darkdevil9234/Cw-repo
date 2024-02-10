@@ -1,7 +1,5 @@
 from pyrogram import Client, __version__
-from database.ia_filterdb import Media
 from aiohttp import web
-from database.users_chats_db import db
 from web import web_app
 from info import LOG_CHANNEL, API_ID, API_HASH, BOT_TOKEN, PORT, BIN_CHANNEL
 from utils import temp
