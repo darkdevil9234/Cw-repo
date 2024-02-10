@@ -4,5 +4,4 @@ from pyrogram import types
 import time, os, platform
 from pyrogram.errors import AccessTokenExpired, AccessTokenInvalid
 
-app = Bot()
 app.run()
