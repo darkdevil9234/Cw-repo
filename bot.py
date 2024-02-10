@@ -4,9 +4,6 @@ from pyrogram import types
 import time, os, platform
 from pyrogram.errors import AccessTokenExpired, AccessTokenInvalid
 
-        print(f"\nPyrogram [v{__version__}] Bot [{username}] Started With Python [v{platform.python_version()}]\n")
-
-
     async def stop(self, *args):
         await super().stop()
         print("Bot Stopped! Bye...")
