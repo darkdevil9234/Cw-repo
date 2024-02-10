@@ -4,10 +4,6 @@ from pyrogram import types
 import time, os, platform
 from pyrogram.errors import AccessTokenExpired, AccessTokenInvalid
 
-                await self.edit_message_text(chat_id=chat_id, message_id=msg_id, text='Restarted Successfully!')
-            except:
-                pass
-            os.remove('restart.txt')
         temp.BOT = self
         await Media.ensure_indexes()
         me = await self.get_me()
